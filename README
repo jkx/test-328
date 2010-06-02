@@ -4,6 +4,11 @@ Intro
 Version de la lib de Das-Labor RFM12 adaptée pour l'utilisation sur Arduino
 - http://www.das-labor.org/wiki/RFM12_library/en
 
+Cette lib offre l'avantage d'être bcp + simple est concise que la lib
+officielle, qui utilise des mots de commandes (très|trop) simples. On
+est bcp + libre ainsi. 
+
+
 
 Howto
 =====
