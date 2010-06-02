@@ -1,11 +1,11 @@
 PRG            = txtest
 OBJ            = txtest.o rfm12.o uart.o
-#MCU_TARGET     = atmega328p
-MCU_TARGET     = atmega168p
+MCU_TARGET     = atmega328p
+#MCU_TARGET     = atmega168p
 OPTIMIZE       = -Os
 
-#FLASHCMD       = avrdude -c arduino -p m328p -P/dev/ttyUSB0 -b57600 -U flash:w:$(PRG).hex
-FLASHCMD       = avrdude -c arduino -p m168 -P/dev/ttyUSB1 -b19200 -U flash:w:$(PRG).hex
+FLASHCMD       = avrdude -c arduino -p m328p -P/dev/ttyUSB0 -b57600 -U flash:w:$(PRG).hex
+#FLASHCMD       = avrdude -c arduino -p m168 -P/dev/ttyUSB1 -b19200 -U flash:w:$(PRG).hex
 ERASECMD       = uisp -dprog=bsd --erase
 LAUNCH_BOOTLOADER = foodloader-0.21/launcher/launch-bootloader
 
