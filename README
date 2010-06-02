@@ -1,1 +1,27 @@
-Das Labor ..
+
+Intro
+===== 
+Version de la lib de Das-Labor RFM12 adaptée pour l'utilisation sur Arduino
+- http://www.das-labor.org/wiki/RFM12_library/en
+
+
+Howto
+=====
+Pour builder, il faut installer la lib RFM12 dans le répertoire ../src
+Ensuite : 
+- make => compilation
+- make flash => ca flashe l'Arduino 
+
+Je livre aussi un ser.py qui est une console série en python .. en effet
+il semble que l'Arduino ne soit pas très heureux de cohabiter avec
+minicom. 
+
+
+Dépendances
+===========
+- avrdude pour le flash
+- python pour la console série 
+
+
+-- 
+Jkx
